@@ -44,7 +44,7 @@ useEffect( () => {
         {
             messages.map( (message) => {
                 return <div key={message.id}>
-                    <span className="fw-bold">{message.user}: </span>
+                    <span className="fw-bold text-primary">{message.user}: </span>
                     <span>{message.text}</span>
                 </div>
             })
